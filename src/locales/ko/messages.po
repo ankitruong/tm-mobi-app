@@ -1,0 +1,1149 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-02-23 14:23+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ko\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/screens/getStarted/GetStarted.tsx:139
+#: src/components/modals/LoginPromptModal.tsx:173
+msgid "<0>By continuing, you agree to our</0><1> Terms </1><2>and</2><3> Privacy Policy</3>"
+msgstr "<0>계속하면 당사의</0><1> 이용약관</1><2>과</2><3> 개인정보 처리방침</3>에 동의하는 것입니다"
+
+#: src/components/settings/ResourcesSection.tsx:35
+msgid "About TMAI"
+msgstr "TMAI 소개"
+
+#: src/components/settings/AccountSection.tsx:17
+msgid "Account"
+msgstr "계정"
+
+#: src/components/modals/DeleteAccountModal.tsx:58
+msgid "Account Deleted!"
+msgstr "계정이 삭제되었습니다!"
+
+#: src/components/modals/SavedPromptsModal.tsx:107
+msgid "Add your preset question here"
+msgstr "사전 설정 질문을 여기에 추가하세요"
+
+#: src/hooks/chats/usePrompts.ts:75
+msgid "Add your preset question here."
+msgstr "사전 설정 질문을 여기에 추가하세요."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:161
+msgid "Already have an account?"
+msgstr "이미 계정이 있으신가요?"
+
+#: src/screens/thankYou/ThankYou.tsx:44
+msgid "Already verified?"
+msgstr "이미 인증하셨나요?"
+
+#: src/hooks/chats/useGuestChatBot.ts:427
+#: src/hooks/chats/useChatBot.ts:606
+msgid "An error occurred"
+msgstr "오류가 발생했습니다"
+
+#: src/components/modals/DeleteAccountModal.tsx:72
+msgid "An error occurred while deleting your account."
+msgstr "계정을 삭제하는 중 오류가 발생했습니다."
+
+#: src/screens/updateProfile/UpdateProfile.tsx:96
+msgid "An error occurred while updating your profile."
+msgstr "프로필을 업데이트하는 중 오류가 발생했습니다."
+
+#: src/components/chats/ChatEmptyState.tsx:51
+msgid "Analyze coins"
+msgstr "코인 분석하기"
+
+#: src/navigation/rootStack/RootStack.tsx:200
+#: src/components/settings/PreferencesSection.tsx:72
+msgid "Appearance"
+msgstr "화면 설정"
+
+#: src/components/drawers/MainDrawerContent.tsx:274
+msgid "Are you sure you want to delete this chat session? This action cannot be undone."
+msgstr "이 채팅 세션을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+
+#: src/components/chats/ChatInput.tsx:174
+msgid "Ask me anything..."
+msgstr "무엇이든 물어보세요..."
+
+#: src/components/intro/IntroCarousel.tsx:26
+msgid "Beat the Crypto Market with AI Insights"
+msgstr "AI 인사이트로 암호화폐 시장을 이기세요"
+
+#: src/components/intro/IntroCarousel.tsx:27
+msgid "Build crypto wealth with AI-driven insights."
+msgstr "AI 기반 인사이트로 암호화폐 자산을 구축하세요."
+
+#: src/components/wallet/ConnectedWallet.tsx:160
+#: src/components/modals/RenameChatModal.tsx:71
+#: src/components/modals/DeleteAccountModal.tsx:117
+#: src/components/drawers/MainDrawerContent.tsx:270
+msgid "Cancel"
+msgstr "취소"
+
+#: src/hooks/chats/usePrompts.ts:78
+msgid "Cannot add more than 5 preset question."
+msgstr "사전 설정 질문은 5개 이상 추가할 수 없습니다."
+
+#: src/hooks/chats/usePrompts.ts:93
+msgid "Cannot add preset question at the moment."
+msgstr "현재 사전 설정 질문을 추가할 수 없습니다."
+
+#: src/components/profile/ProfileAccountSection.tsx:45
+msgid "Change password"
+msgstr "비밀번호 변경"
+
+#: src/navigation/rootStack/RootStack.tsx:186
+msgid "Change Password"
+msgstr "비밀번호 변경"
+
+#: src/components/modals/DeleteAccountModal.tsx:126
+msgid "Change Plan"
+msgstr "요금제 변경"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:75
+#: src/components/chats/GuestBottomTabs.tsx:38
+msgid "Chat"
+msgstr "채팅"
+
+#: src/hooks/chats/useGuestChatBot.ts:156
+#: src/components/chats/LimitReachedCopy.tsx:9
+msgid "Chat Limit Reached"
+msgstr "채팅 한도에 도달했습니다"
+
+#: src/components/modals/RenameChatModal.tsx:39
+msgid "Chat session renamed successfully"
+msgstr "채팅 세션 이름이 성공적으로 변경되었습니다"
+
+#: src/components/modals/RenameChatModal.tsx:62
+msgid "Chat title goes here"
+msgstr "채팅 제목을 입력하세요"
+
+#: src/components/chats/ChatEmptyState.tsx:79
+msgid "Check your balance"
+msgstr "잔액 확인하기"
+
+#: src/components/menus/ProfileImageMenuPopup.tsx:86
+msgid "Choose From Library"
+msgstr "라이브러리에서 선택"
+
+#: src/components/headers/BottomDrawerHeader.tsx:49
+msgid "Close bottom drawer"
+msgstr "하단 서랍 닫기"
+
+#: src/components/headers/ChatModalHeader.tsx:59
+msgid "Close chat"
+msgstr "채팅 닫기"
+
+#: src/components/headers/ChatModalHeader.tsx:45
+#: src/components/drawers/MainDrawerContent.tsx:185
+msgid "Close edit mode"
+msgstr "편집 모드 닫기"
+
+#: src/components/drawers/MainDrawerContent.tsx:199
+msgid "Close main drawer"
+msgstr "메인 서랍 닫기"
+
+#: src/screens/appearance/Appearance.tsx:39
+msgid "Color Scheme"
+msgstr "색 구성표"
+
+#: src/screens/appearance/Appearance.tsx:31
+msgid "color scheme changed"
+msgstr "색 구성표가 변경됨"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:177
+msgid "Complete your TMAI Account"
+msgstr "TMAI 계정 완성하기"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:142
+#: src/screens/changePassword/ChangePassword.tsx:59
+msgid "Confirm Password"
+msgstr "비밀번호 확인"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:147
+msgid "Confirm your password"
+msgstr "비밀번호를 확인하세요"
+
+#: src/components/wallet/WalletEmptyState.tsx:63
+msgid "Connect Wallet"
+msgstr "지갑 연결하기"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:155
+#: src/screens/onboarding/Onboarding.tsx:108
+#: src/screens/completeProfile/CompleteProfile.tsx:209
+msgid "Continue"
+msgstr "계속하기"
+
+#: src/screens/intro/Intro.tsx:101
+msgid "Continue as a Guest"
+msgstr "게스트로 계속하기"
+
+#: src/screens/getStarted/GetStarted.tsx:86
+#: src/components/modals/LoginPromptModal.tsx:113
+msgid "Continue with Apple"
+msgstr "Apple로 계속하기"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:112
+#: src/screens/signIn/SignIn.tsx:149
+msgid "Continue with email"
+msgstr "이메일로 계속하기"
+
+#: src/screens/getStarted/GetStarted.tsx:96
+#: src/components/modals/LoginPromptModal.tsx:126
+msgid "Continue with Google"
+msgstr "Google로 계속하기"
+
+#: src/screens/getStarted/GetStarted.tsx:109
+#: src/components/modals/LoginPromptModal.tsx:139
+msgid "Continue with NFT"
+msgstr "NFT로 계속하기"
+
+#: src/screens/onboarding/Onboarding.tsx:51
+msgid "Continuous Improvement"
+msgstr "지속적인 개선"
+
+#: src/components/chats/BotMessage.tsx:94
+msgid "Copy response"
+msgstr "응답 복사"
+
+#: src/components/wallet/WalletCard.tsx:56
+msgid "Copy wallet address"
+msgstr "지갑 주소 복사"
+
+#: src/screens/intro/Intro.tsx:108
+msgid "Create an Account"
+msgstr "계정 만들기"
+
+#: src/components/profile/ProfileAccountSection.tsx:37
+msgid "Current plan"
+msgstr "현재 요금제"
+
+#: src/screens/appearance/Appearance.tsx:70
+msgid "Dark"
+msgstr "다크"
+
+#: src/components/drawers/MainDrawerContent.tsx:269
+msgid "Delete"
+msgstr "삭제"
+
+#: src/components/modals/DeleteAccountModal.tsx:97
+#: src/components/modals/DeleteAccountModal.tsx:108
+msgid "Delete Account"
+msgstr "계정 삭제"
+
+#: src/components/modals/DeleteAccountModal.tsx:52
+#: src/components/modals/DeleteAccountModal.tsx:71
+msgid "Delete Account Failed!"
+msgstr "계정 삭제 실패!"
+
+#: src/components/drawers/MainDrawerContent.tsx:140
+msgid "Delete chat session"
+msgstr "채팅 세션 삭제"
+
+#: src/components/drawers/MainDrawerContent.tsx:268
+msgid "Delete Chat Session"
+msgstr "채팅 세션 삭제"
+
+#: src/components/profile/ProfileAccountSection.tsx:54
+msgid "Delete my account"
+msgstr "내 계정 삭제"
+
+#: src/hooks/chats/usePrompts.ts:126
+msgid "Delete preset question failed."
+msgstr "사전 설정 질문 삭제 실패."
+
+#: src/components/wallet/ConnectedWallet.tsx:159
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#: src/components/wallet/WalletCard.tsx:65
+msgid "Disconnect wallet"
+msgstr "지갑 연결 해제"
+
+#: src/components/wallet/ConnectedWallet.tsx:158
+msgid "Disconnect Wallet"
+msgstr "지갑 연결 해제"
+
+#: src/components/buttons/FeedbackIconButton.tsx:31
+msgid "Dislike"
+msgstr "싫어요"
+
+#: src/components/chats/MessageFeedback.tsx:43
+msgid "Dislike response"
+msgstr "응답 싫어요"
+
+#: src/components/chats/MessageFeedback.tsx:62
+msgid "Disliked response"
+msgstr "싫어요한 응답"
+
+#: src/components/modals/ChatFeedbackModal.tsx:84
+msgid "Dismiss"
+msgstr "닫기"
+
+#: src/screens/signIn/SignIn.tsx:203
+msgid "Don't have an account?"
+msgstr "계정이 없으신가요?"
+
+#: src/components/modals/AppUpdateModal.tsx:113
+msgid "Download update"
+msgstr "업데이트 다운로드"
+
+#: src/components/headers/SettingsHeader.tsx:43
+msgid "Edit profile"
+msgstr "프로필 수정"
+
+#: src/components/drawers/MainDrawerContent.tsx:124
+msgid "Edit session title"
+msgstr "세션 제목 수정"
+
+#: src/components/profile/ProfileInfoSection.tsx:23
+msgid "Email"
+msgstr "이메일"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:120
+#: src/screens/signIn/SignIn.tsx:160
+msgid "Email Address"
+msgstr "이메일 주소"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:91
+msgid "Email already exists. Please try again with a different email address."
+msgstr "이미 존재하는 이메일입니다. 다른 이메일 주소로 다시 시도해 주세요."
+
+#: src/screens/signIn/SignIn.tsx:74
+msgid "Email not verified"
+msgstr "이메일이 인증되지 않았습니다"
+
+#: src/screens/signIn/SignIn.tsx:85
+msgid "Email sent successfully."
+msgstr "이메일이 성공적으로 전송되었습니다."
+
+#: src/components/settings/PreferencesSection.tsx:33
+msgid "English"
+msgstr "영어"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:136
+msgid "Enter a password"
+msgstr "비밀번호를 입력하세요"
+
+#: src/screens/changePassword/ChangePassword.tsx:86
+msgid "Enter the OTP sent to your email/phone"
+msgstr "이메일/전화로 전송된 OTP를 입력하세요"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:125
+#: src/screens/signIn/SignIn.tsx:165
+msgid "Enter your email address"
+msgstr "이메일 주소를 입력하세요"
+
+#: src/screens/signIn/SignIn.tsx:152
+msgid "Enter your email address to continue with your account."
+msgstr "계정을 계속하려면 이메일 주소를 입력하세요."
+
+#: src/screens/completeProfile/CompleteProfile.tsx:190
+msgid "Enter your first name"
+msgstr "이름을 입력하세요"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:201
+msgid "Enter your last name"
+msgstr "성을 입력하세요"
+
+#: src/components/chats/ChatInput.tsx:185
+msgid "Enter your message here"
+msgstr "메시지를 여기에 입력하세요"
+
+#: src/screens/signIn/SignIn.tsx:185
+msgid "Enter your password"
+msgstr "비밀번호를 입력하세요"
+
+#: src/hooks/user/useChangePassword.ts:50
+#: src/hooks/auth/useAuthState.ts:35
+#: src/components/profile/ProfileImageSection.tsx:51
+msgid "Error"
+msgstr "오류"
+
+#: src/screens/intro/Intro.tsx:59
+msgid "Error signing in as a guest"
+msgstr "게스트로 로그인하는 중 오류가 발생했습니다"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:81
+#: src/screens/completeProfile/CompleteProfile.tsx:115
+msgid "Error signing up with email"
+msgstr "이메일로 가입하는 중 오류가 발생했습니다"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:59
+msgid "Error verifying email"
+msgstr "이메일 인증 중 오류가 발생했습니다"
+
+#: src/components/menus/ChatMenuPopup.tsx:87
+msgid "Example Prompts"
+msgstr "예시 프롬프트"
+
+#: src/components/modals/ExamplePromptsModal.tsx:125
+msgid "Example Questions"
+msgstr "예시 질문"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:90
+msgid "Failed login with Privy."
+msgstr "Privy 로그인에 실패했습니다."
+
+#: src/hooks/chats/useMainDrawerContent.ts:131
+msgid "Failed to delete chat session"
+msgstr "채팅 세션 삭제에 실패했습니다"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:96
+msgid "Failed to disconnect from external wallet."
+msgstr "외부 지갑 연결 해제에 실패했습니다."
+
+#: src/hooks/auth/useNftLogin.ts:178
+msgid "Failed to disconnect from the wallet."
+msgstr "지갑 연결 해제에 실패했습니다."
+
+#: src/components/wallet/ConnectedWallet.tsx:57
+msgid "Failed to fund wallet."
+msgstr "지갑 자금 충전에 실패했습니다."
+
+#: src/hooks/auth/usePrivyLogin.ts:34
+msgid "Failed to login. Please try again."
+msgstr "로그인에 실패했습니다. 다시 시도해 주세요."
+
+#: src/components/wallet/ConnectedWallet.tsx:80
+msgid "Failed to logout."
+msgstr "로그아웃에 실패했습니다."
+
+#: src/components/modals/RenameChatModal.tsx:41
+msgid "Failed to rename chat session"
+msgstr "채팅 세션 이름 변경에 실패했습니다"
+
+#: src/components/modals/ChatFeedbackModal.tsx:43
+msgid "Failed to submit feedback"
+msgstr "피드백 제출에 실패했습니다"
+
+#: src/components/profile/ProfileImageSection.tsx:98
+#: src/components/profile/ProfileImageSection.tsx:104
+msgid "Failed to update profile image"
+msgstr "프로필 이미지 업데이트에 실패했습니다"
+
+#: src/components/modals/ChatFeedbackModal.tsx:41
+msgid "Feedback submitted"
+msgstr "피드백이 제출되었습니다"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:123
+#: src/screens/completeProfile/CompleteProfile.tsx:185
+#: src/components/profile/ProfileInfoSection.tsx:14
+msgid "First Name"
+msgstr "이름"
+
+#: src/components/wallet/ConnectedWallet.tsx:115
+msgid "Fund Wallet"
+msgstr "지갑 자금 충전"
+
+#: src/components/wallet/ConnectedWallet.tsx:63
+msgid "Funding Wallet Error"
+msgstr "지갑 자금 충전 오류"
+
+#: src/components/headers/Header.tsx:51
+msgid "Go back"
+msgstr "뒤로 가기"
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:76
+#: src/hooks/auth/useNftLogin.ts:98
+msgid "Hi there! Sign this message to prove you have access to this wallet and we'll log you in , this wont't cost you any Ethers"
+msgstr "안녕하세요! 이 지갑에 대한 접근 권한을 증명하기 위해 이 메시지에 서명해 주세요. 로그인을 도와드리겠습니다. 이더는 소모되지 않습니다"
+
+#: src/components/settings/DangerZoneSection.tsx:41
+msgid "I understand"
+msgstr "이해했습니다"
+
+#: src/components/settings/PreferencesSection.tsx:56
+msgid "Language"
+msgstr "언어"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:137
+#: src/screens/completeProfile/CompleteProfile.tsx:196
+#: src/components/profile/ProfileInfoSection.tsx:19
+msgid "Last Name"
+msgstr "성"
+
+#: src/screens/appearance/Appearance.tsx:55
+msgid "Light"
+msgstr "라이트"
+
+#: src/components/buttons/FeedbackIconButton.tsx:31
+msgid "Like"
+msgstr "좋아요"
+
+#: src/components/chats/MessageFeedback.tsx:38
+msgid "Like response"
+msgstr "응답 좋아요"
+
+#: src/components/chats/MessageFeedback.tsx:55
+msgid "Liked response"
+msgstr "좋아요한 응답"
+
+#: src/components/chats/ChatInput.tsx:155
+msgid "Listening for speech input"
+msgstr "음성 입력 대기 중"
+
+#: src/hooks/chats/useSpeechToText.ts:209
+msgid "Listening..."
+msgstr "듣고 있습니다..."
+
+#: src/components/loaders/AnimatedLoadingIcon.tsx:50
+msgid "Loading..."
+msgstr "로딩 중..."
+
+#: src/components/modals/LoginPromptModal.tsx:166
+msgid "Log in"
+msgstr "로그인"
+
+#: src/screens/intro/Intro.tsx:116
+msgid "Log In"
+msgstr "로그인"
+
+#: src/screens/signIn/SignIn.tsx:91
+#: src/screens/signIn/SignIn.tsx:113
+msgid "Login Failed!"
+msgstr "로그인 실패!"
+
+#: src/components/modals/PrivyConnectWalletModal.tsx:55
+msgid "Login with email"
+msgstr "이메일로 로그인"
+
+#: src/screens/wallet/Wallet.tsx:35
+msgid "Login with email failed!"
+msgstr "이메일 로그인 실패!"
+
+#: src/components/modals/PrivyConnectWalletModal.tsx:42
+msgid "Login with Wallet"
+msgstr "지갑으로 로그인"
+
+#: src/components/wallet/ConnectedWallet.tsx:82
+msgid "Logout Error"
+msgstr "로그아웃 오류"
+
+#: src/components/chats/ChatInput.tsx:183
+msgid "Message input"
+msgstr "메시지 입력"
+
+#: src/components/chats/ChatInput.tsx:124
+msgid "Message sent"
+msgstr "메시지 전송됨"
+
+#: src/hooks/chats/useGuestChatBot.ts:304
+#: src/hooks/chats/useChatBot.ts:417
+msgid "Message shared"
+msgstr "메시지 공유됨"
+
+#: src/components/buttons/MicrophoneButton.tsx:23
+msgid "Microphone"
+msgstr "마이크"
+
+#: src/components/settings/AccountSection.tsx:20
+msgid "My profile"
+msgstr "내 프로필"
+
+#: src/navigation/rootStack/RootStack.tsx:154
+msgid "My Profile"
+msgstr "내 프로필"
+
+#: src/components/settings/DangerZoneSection.tsx:42
+msgid "Never mind"
+msgstr "취소"
+
+#: src/components/menus/ChatMenuPopup.tsx:57
+msgid "New Chat"
+msgstr "새 채팅"
+
+#: src/screens/changePassword/ChangePassword.tsx:45
+msgid "New Password"
+msgstr "새 비밀번호"
+
+#: src/hooks/auth/useNftLogin.ts:108
+#: src/hooks/auth/useNftLogin.ts:113
+msgid "No Astrobot NFT. Please purchase a Astrobot NFT to get access."
+msgstr "Astrobot NFT가 없습니다. 접근 권한을 얻으려면 Astrobot NFT를 구매해 주세요."
+
+#: src/components/drawers/MainDrawerContent.tsx:241
+msgid "No chat history"
+msgstr "채팅 기록 없음"
+
+#: src/hooks/chats/useChatBot.ts:459
+#: src/hooks/chats/useChatBot.ts:495
+msgid "No chat session id found"
+msgstr "채팅 세션 ID를 찾을 수 없습니다"
+
+#: src/hooks/chats/useMainDrawerContent.ts:110
+msgid "No chat session to rename"
+msgstr "이름을 변경할 채팅 세션이 없습니다"
+
+#: src/hooks/chats/useGuestChatBot.ts:368
+#: src/hooks/chats/useChatBot.ts:517
+msgid "No feedback data found"
+msgstr "피드백 데이터를 찾을 수 없습니다"
+
+#: src/components/wallet/TokenListEmpty.tsx:9
+msgid "No tokens found, select a different network or add a token manually."
+msgstr "토큰을 찾을 수 없습니다. 다른 네트워크를 선택하거나 토큰을 수동으로 추가하세요."
+
+#: src/components/modals/RenameChatModal.tsx:77
+msgid "Ok"
+msgstr "확인"
+
+#: src/screens/signIn/SignIn.tsx:78
+msgid "OK"
+msgstr "확인"
+
+#: src/components/chats/MessageFeedback.tsx:71
+msgid "Open chat feedback"
+msgstr "채팅 피드백 열기"
+
+#: src/components/menus/ChatMenuPopup.tsx:32
+msgid "Open chat menu"
+msgstr "채팅 메뉴 열기"
+
+#: src/components/headers/ChatModalHeader.tsx:45
+#: src/components/drawers/MainDrawerContent.tsx:185
+msgid "Open edit mode"
+msgstr "편집 모드 열기"
+
+#: src/components/buttons/MainDrawerToggleButton.tsx:17
+msgid "Open main drawer"
+msgstr "메인 서랍 열기"
+
+#: src/components/headers/GuestChatHeader.tsx:35
+msgid "Open profile"
+msgstr "프로필 열기"
+
+#: src/screens/changePassword/ChangePassword.tsx:75
+msgid "OTP"
+msgstr "OTP"
+
+#: src/hooks/user/useChangePassword.ts:46
+msgid "OTP sent to your email/phone"
+msgstr "이메일/전화로 OTP가 전송되었습니다"
+
+#: src/screens/onboarding/Onboarding.tsx:35
+msgid "Our Commitment to Improvement"
+msgstr "개선을 위한 우리의 약속"
+
+#: src/screens/onboarding/Onboarding.tsx:36
+msgid "Our engineers may review conversations to improve system performance and user experience."
+msgstr "우리의 엔지니어들은 시스템 성능과 사용자 경험을 개선하기 위해 대화를 검토할 수 있습니다."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:131
+#: src/screens/signIn/SignIn.tsx:178
+msgid "Password"
+msgstr "비밀번호"
+
+#: src/hooks/user/useChangePassword.ts:78
+msgid "Password changed successfully"
+msgstr "비밀번호가 성공적으로 변경되었습니다"
+
+#: src/components/chats/ChatInput.tsx:96
+msgid "Permission to access microphone was denied"
+msgstr ""
+
+#: src/screens/onboarding/Onboarding.tsx:44
+msgid "Please avoid sharing sensitive personal information in your conversations to keep your data safe."
+msgstr "데이터 보안을 위해 대화에서 민감한 개인 정보를 공유하지 마세요."
+
+#: src/screens/thankYou/ThankYou.tsx:30
+msgid "Please check your email and verify your account."
+msgstr "이메일을 확인하고 계정을 인증해 주세요."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:60
+msgid "Please enter a valid email address."
+msgstr "유효한 이메일 주소를 입력해 주세요."
+
+#: src/hooks/chats/useSpeechToText.ts:114
+msgid "Please grant microphone permission to use voice input"
+msgstr "음성 입력을 사용하려면 마이크 권한을 허용해 주세요"
+
+#: src/components/modals/RenameChatModal.tsx:30
+msgid "Please provide a title"
+msgstr "제목을 입력해 주세요"
+
+#: src/hooks/chats/useGuestChatBot.ts:373
+#: src/hooks/chats/useChatBot.ts:522
+msgid "Please provide feedback"
+msgstr "피드백을 제공해 주세요"
+
+#: src/components/modals/ChatFeedbackModal.tsx:31
+msgid "Please provide some feedback"
+msgstr "피드백을 제공해 주세요"
+
+#: src/screens/signIn/SignIn.tsx:75
+msgid "Please verify your email address. If you haven't received the email, please press resend email button below"
+msgstr "이메일 주소를 인증해 주세요. 이메일을 받지 못한 경우 아래의 이메일 재전송 버튼을 눌러주세요"
+
+#: src/hooks/chats/usePrompts.ts:155
+#: src/hooks/chats/usePrompts.ts:170
+#: src/hooks/chats/useMainDrawerContent.ts:50
+#: src/hooks/chats/useMainDrawerContent.ts:75
+msgid "Please wait for the agent to finish processing the previous request"
+msgstr "에이전트가 이전 요청을 처리 완료할 때까지 기다려 주세요"
+
+#: src/components/chats/ChatInput.tsx:66
+#: src/components/chats/ChatInput.tsx:112
+msgid "Please wait for the response to finish."
+msgstr "응답이 완료될 때까지 기다려 주세요."
+
+#: src/hooks/chats/usePrompts.ts:176
+#: src/hooks/chats/useGuestChatBot.ts:166
+#: src/hooks/chats/useGuestChatBot.ts:244
+#: src/hooks/chats/useChatBot.ts:197
+#: src/hooks/chats/useChatBot.ts:308
+msgid "Please wait while previous request is being processed"
+msgstr "이전 요청이 처리되는 동안 기다려 주세요"
+
+#: src/hooks/chats/usePrompts.ts:154
+#: src/hooks/chats/usePrompts.ts:169
+#: src/hooks/chats/useMainDrawerContent.ts:49
+#: src/hooks/chats/useMainDrawerContent.ts:74
+#: src/hooks/chats/useGuestChatBot.ts:165
+#: src/hooks/chats/useGuestChatBot.ts:243
+#: src/hooks/chats/useChatBot.ts:196
+#: src/hooks/chats/useChatBot.ts:307
+msgid "Please Wait..."
+msgstr "잠시만 기다려 주세요..."
+
+#: src/components/settings/PreferencesSection.tsx:45
+msgid "Preferences"
+msgstr "환경설정"
+
+#: src/components/modals/SavedPromptsModal.tsx:97
+msgid "Preset Questions"
+msgstr "사전 설정 질문"
+
+#: src/navigation/rootStack/RootStack.tsx:233
+#: src/components/settings/ResourcesSection.tsx:50
+msgid "Privacy Policy"
+msgstr "개인정보 처리방침"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:91
+msgid "Privy Login Error"
+msgstr "Privy 로그인 오류"
+
+#: src/components/profile/ProfileImageSection.tsx:51
+msgid "Profile image size must be less than 3MB"
+msgstr "프로필 이미지 크기는 3MB 미만이어야 합니다"
+
+#: src/components/profile/ProfileImageSection.tsx:90
+msgid "Profile image updated successfully"
+msgstr "프로필 이미지가 성공적으로 업데이트되었습니다"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:83
+msgid "Profile updated successfully."
+msgstr "프로필이 성공적으로 업데이트되었습니다."
+
+#: src/components/modals/ChatFeedbackModal.tsx:64
+msgid "Provide Additional Feedback"
+msgstr "추가 피드백 제공"
+
+#: src/components/settings/PreferencesSection.tsx:49
+msgid "Push Notifications"
+msgstr "푸시 알림"
+
+#: src/screens/intro/Intro.tsx:41
+#: src/screens/completeProfile/CompleteProfile.tsx:124
+#: src/hooks/user/useChangePassword.ts:110
+msgid "Recaptcha error, please try again"
+msgstr "리캡차 오류가 발생했습니다. 다시 시도해 주세요"
+
+#: src/screens/intro/Intro.tsx:45
+#: src/screens/completeProfile/CompleteProfile.tsx:128
+#: src/hooks/user/useChangePassword.ts:114
+msgid "Recaptcha expired, please try again"
+msgstr "리캡차가 만료되었습니다. 다시 시도해 주세요"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:53
+msgid "Recaptcha is required"
+msgstr "리캡차가 필요합니다"
+
+#: src/components/buttons/RegenerateButton.tsx:25
+msgid "Regenerate latest response"
+msgstr "최신 응답 재생성"
+
+#: src/components/chats/BotMessage.tsx:104
+msgid "Regenerate response"
+msgstr "응답 재생성"
+
+#: src/components/modals/RenameChatModal.tsx:55
+msgid "Rename Chat"
+msgstr "채팅 이름 변경"
+
+#: src/hooks/chats/usePrompts.ts:144
+msgid "Request Failed"
+msgstr "요청 실패"
+
+#: src/screens/signIn/SignIn.tsx:82
+msgid "Resend Email"
+msgstr "이메일 재전송"
+
+#: src/components/settings/ResourcesSection.tsx:25
+msgid "Resources"
+msgstr "리소스"
+
+#: src/hooks/chats/useGuestChatBot.ts:293
+#: src/hooks/chats/useChatBot.ts:406
+msgid "Response disliked"
+msgstr "응답 싫어요 표시됨"
+
+#: src/hooks/chats/useGuestChatBot.ts:273
+#: src/hooks/chats/useChatBot.ts:366
+msgid "Response liked"
+msgstr "응답 좋아요 표시됨"
+
+#: src/components/modals/SavedPromptsModal.tsx:116
+msgid "Save preset question"
+msgstr "사전 설정 질문 저장"
+
+#: src/components/menus/ChatMenuPopup.tsx:72
+msgid "Saved Prompts"
+msgstr "저장된 프롬프트"
+
+#: src/components/wallet/ConnectedWalletTokensList.tsx:76
+msgid "Search Tokens..."
+msgstr "토큰 검색..."
+
+#: src/components/trades/TradeHistory.tsx:37
+msgid "Search Trade..."
+msgstr "거래 검색..."
+
+#: src/components/drawers/MainDrawerContent.tsx:207
+msgid "Search..."
+msgstr "검색..."
+
+#: src/components/chats/ChatEmptyState.tsx:66
+msgid "Sell crypto"
+msgstr "암호화폐 판매"
+
+#: src/screens/changePassword/ChangePassword.tsx:93
+msgid "Send"
+msgstr "전송"
+
+#: src/components/chats/ChatInput.tsx:191
+msgid "Send message"
+msgstr "메시지 보내기"
+
+#: src/hooks/auth/useAuthState.ts:35
+msgid "Session expired. Please login again."
+msgstr "세션이 만료되었습니다. 다시 로그인해 주세요."
+
+#: src/navigation/rootStack/RootStack.tsx:140
+#: src/components/menus/ChatMenuPopup.tsx:96
+msgid "Settings"
+msgstr "설정"
+
+#: src/hooks/chats/useGuestChatBot.ts:307
+#: src/hooks/chats/useChatBot.ts:420
+msgid "Share failed"
+msgstr "공유 실패"
+
+#: src/components/chats/BotMessage.tsx:116
+msgid "Share response"
+msgstr "응답 공유"
+
+#: src/screens/thankYou/ThankYou.tsx:48
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:165
+#: src/screens/signIn/SignIn.tsx:197
+#: src/screens/getStarted/GetStarted.tsx:135
+msgid "Sign in"
+msgstr "로그인"
+
+#: src/components/settings/DangerZoneSection.tsx:28
+#: src/components/settings/DangerZoneSection.tsx:40
+msgid "Sign out"
+msgstr "로그아웃"
+
+#: src/screens/signIn/SignIn.tsx:207
+msgid "Sign up"
+msgstr "회원가입"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:81
+#: src/screens/completeProfile/CompleteProfile.tsx:90
+msgid "Sign Up Failed!"
+msgstr "회원가입 실패!"
+
+#: src/screens/getStarted/GetStarted.tsx:122
+#: src/components/modals/LoginPromptModal.tsx:152
+msgid "Sign up with email"
+msgstr "이메일로 회원가입"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:115
+msgid "Sign up with your email."
+msgstr "이메일로 회원가입하세요."
+
+#: src/components/settings/DangerZoneSection.tsx:45
+msgid "Signing out will also disconnect your wallet. You will need to connect your wallet again to use wallet features when you log in again."
+msgstr "로그아웃하면 지갑 연결도 해제됩니다. 다시 로그인할 때 지갑 기능을 사용하려면 지갑을 다시 연결해야 합니다."
+
+#: src/hooks/auth/useSignout.ts:50
+#: src/hooks/auth/useSignout.ts:59
+msgid "Signout Failed!"
+msgstr "로그아웃 실패!"
+
+#: src/components/chats/ChatSimilarPrompts.tsx:31
+msgid "Similar"
+msgstr "유사"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:160
+msgid "Something went wrong, please try again"
+msgstr "문제가 발생했습니다. 다시 시도해 주세요"
+
+#: src/components/chats/ChatSources.tsx:35
+msgid "Sources"
+msgstr "출처"
+
+#: src/components/chats/ChatInput.tsx:174
+msgid "Speech recognized"
+msgstr "음성 인식됨"
+
+#: src/components/intro/IntroCarousel.tsx:31
+msgid "Spot Hidden Gems"
+msgstr "숨겨진 보석을 발견하세요"
+
+#: src/components/drawers/MainDrawerContent.tsx:245
+msgid "Start a new chat"
+msgstr "새 채팅 시작"
+
+#: src/components/modals/ChatFeedbackModal.tsx:90
+msgid "Submit"
+msgstr "제출"
+
+#: src/components/settings/ResourcesSection.tsx:28
+msgid "Support"
+msgstr "고객지원"
+
+#: src/components/profile/ProfileImageSection.tsx:63
+msgid "Supported image types:"
+msgstr "지원되는 이미지 형식:"
+
+#: src/components/chats/ChatEmptyState.tsx:38
+msgid "Swap tokens"
+msgstr "토큰 스왑"
+
+#: src/components/trades/TradeHistoryItem.tsx:38
+msgid "Swapped to"
+msgstr "스왑 대상:"
+
+#: src/screens/appearance/Appearance.tsx:85
+msgid "System"
+msgstr "시스템"
+
+#: src/components/menus/ProfileImageMenuPopup.tsx:78
+msgid "Take Photo"
+msgstr "사진 촬영"
+
+#: src/components/buttons/MicrophoneButton.tsx:25
+msgid "Tap to start or stop recording"
+msgstr "탭하여 녹음 시작 또는 중지"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:180
+msgid "Tell us about you."
+msgstr "자신에 대해 알려주세요."
+
+#: src/components/settings/ResourcesSection.tsx:42
+msgid "Terms & Condition"
+msgstr "이용약관"
+
+#: src/navigation/rootStack/RootStack.tsx:219
+msgid "Terms Of Use"
+msgstr "이용약관"
+
+#: src/screens/thankYou/ThankYou.tsx:27
+msgid "Thank you for signing up!"
+msgstr "회원가입해 주셔서 감사합니다!"
+
+#: src/hooks/auth/usePrivyLogin.ts:36
+msgid "The login flow was closed"
+msgstr "로그인 과정이 취소되었습니다"
+
+#: src/components/wallet/ConnectedWallet.tsx:163
+msgid "This action will disconnect your wallet. You will need to connect your wallet again to use wallet features."
+msgstr "이 작업은 지갑 연결을 해제합니다. 지갑 기능을 사용하려면 지갑을 다시 연결해야 합니다."
+
+#: src/screens/privacyPolicy/PrivacyPolicy.tsx:10
+msgid ""
+"This chatbot collects and stores information provided by users, including but not limited to user inputs but not personalized investor profile inputs, account information, and usage data. This information is used solely for the purpose of providing the chatbot service and improving the user experience. We may also use this information to send periodic updates, promotions, or other marketing materials. Users have the option to opt out of receiving these communications at any time by unsubscribing or contacting us directly.\n"
+"\n"
+"We take the privacy and security of user data seriously and implement measures to protect it from unauthorized access, disclosure, or use. We do not sell or share user data with third parties for marketing purposes.\n"
+"\n"
+"This chatbot may use cookies or other tracking technologies to enhance the user experience. Users can choose to disable cookies in their web browser, although this may affect the functionality of the chatbot.\n"
+"\n"
+"We may be required to disclose user data to comply with legal obligations or protect our rights, property, or safety.\n"
+"\n"
+"By using this chatbot, users consent to the collection, storage, and use of their data as outlined in this privacy policy."
+msgstr ""
+"이 챗봇은 정보 제공 목적으로만 제공되며 금융 또는 투자 조언으로 사용되지 않습니다. 이 챗봇이 제공하는 정보는 개인의 상황에 맞춰져 있지 않으며 모든 사용자에게 적합하지 않을 수 있습니다. 암호화폐 투자에는 원금 손실 가능성을 포함한 위험이 수반됩니다.\n"
+"\n"
+"이 챗봇의 사용은 금융 자문가-고객 관계를 형성하지 않습니다. 투자 결정을 내리기 전에 사용자는 자격을 갖춘 금융 자문가와 상담하거나 자체 조사를 수행해야 합니다.\n"
+"\n"
+"이 챗봇은 자동화된 시스템이며 항상 정확하거나 최신 정보를 제공하지 않을 수 있습니다. 이 챗봇의 제작자는 챗봇이 제공한 정보를 기반으로 사용자가 취한 행동에 대해 책임지지 않습니다. 이 챗봇을 사용함으로써 사용자는 이러한 이용약관을 인정하고 수락합니다."
+
+#: src/screens/onboarding/Onboarding.tsx:94
+msgid "This chatbot is provided for informational purposes only and is not intended to be used as financial or investment advice."
+msgstr "이 챗봇은 정보 제공 목적으로만 제공되며 금융 또는 투자 조언으로 사용되지 않습니다."
+
+#: src/screens/termsOfUse/TermsOfUse.tsx:10
+msgid ""
+"This chatbot is provided for informational purposes only and is not intended to be used as financial or investment advice. The information provided by this chatbot is not tailored to individual circumstances and may not be appropriate for all users. Investing in cryptocurrencies involves risks, including the potential loss of principal.\n"
+"\n"
+"The use of this chatbot does not create a financial advisor-client relationship. Before making any investment decisions, users should consult with a qualified financial advisor or conduct their own research.\n"
+"\n"
+"This chatbot is an automated system and may not always provide accurate or up-to-date information. The creators of this chatbot are not responsible for any actions taken by users based on the information provided by this chatbot. By using this chatbot, users acknowledge and accept these terms and conditions."
+msgstr ""
+"이 챗봇은 정보 제공 목적으로만 제공되며 금융 또는 투자 조언으로 사용되지 않습니다. 이 챗봇이 제공하는 정보는 개인의 상황에 맞춰져 있지 않으며 모든 사용자에게 적합하지 않을 수 있습니다. 암호화폐 투자에는 원금 손실 가능성을 포함한 위험이 수반됩니다.\n"
+"\n"
+"이 챗봇의 사용은 금융 자문가-고객 관계를 형성하지 않습니다. 투자 결정을 내리기 전에 사용자는 자격을 갖춘 금융 자문가와 상담하거나 자체 조사를 수행해야 합니다.\n"
+"\n"
+"이 챗봇은 자동화된 시스템이며 항상 정확하거나 최신 정보를 제공하지 않을 수 있습니다. 이 챗봇의 제작자는 챗봇이 제공한 정보를 기반으로 사용자가 취한 행동에 대해 책임지지 않습니다. 이 챗봇을 사용함으로써 사용자는 이러한 이용약관을 인정하고 수락합니다."
+
+#: src/navigation/rootStack/RootStack.tsx:122
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:74
+msgid "TMAI Agent"
+msgstr "TMAI 에이전트"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:91
+msgid "TMAI Wallet"
+msgstr "TMAI 지갑"
+
+#: src/components/inputs/SecureTextInput.tsx:26
+msgid "Toggle password visibility"
+msgstr "비밀번호 표시 전환"
+
+#: src/components/wallet/WalletEmptyState.tsx:54
+msgid "Track your holdings and balances here after connecting your wallet"
+msgstr "지갑을 연결한 후 여기서 보유 자산과 잔액을 추적하세요"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:107
+msgid "Trade History"
+msgstr "거래 내역"
+
+#: src/components/intro/IntroCarousel.tsx:37
+msgid "Trade, swap, and track the market effortlessly. Access live charts, real-time market insights, with our AI Agent."
+msgstr "쉽게 거래하고, 스왑하고, 시장을 추적하세요. AI 에이전트와 함께 실시간 차트와 시장 인사이트를 확인하세요."
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:108
+#: src/components/chats/GuestBottomTabs.tsx:54
+msgid "Trades"
+msgstr "거래"
+
+#: src/components/intro/IntroCarousel.tsx:32
+msgid "Unearth standout tokens from over 7,000 options with powerful AI-driven insights."
+msgstr "AI 기반의 강력한 인사이트로 7,000개 이상의 옵션 중에서 뛰어난 토큰을 발굴하세요."
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:100
+#: src/hooks/auth/useNftLogin.ts:166
+msgid "Unknown error"
+msgstr "알 수 없는 오류"
+
+#: src/components/wallet/WalletDistribution.tsx:49
+#: src/components/wallet/WalletDistribution.tsx:55
+msgid "Unselect network"
+msgstr "네트워크 선택 해제"
+
+#: src/components/profile/ProfileImageSection.tsx:62
+msgid "Unsupported image type"
+msgstr "지원되지 않는 이미지 형식"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:152
+#: src/screens/changePassword/ChangePassword.tsx:110
+msgid "Update"
+msgstr "업데이트"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:95
+#: src/hooks/user/useChangePassword.ts:73
+#: src/hooks/user/useChangePassword.ts:88
+msgid "Update Failed!"
+msgstr "업데이트 실패!"
+
+#: src/navigation/rootStack/RootStack.tsx:172
+msgid "Update Profile"
+msgstr "프로필 업데이트"
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:96
+#: src/hooks/auth/useNftLogin.ts:155
+msgid "User rejected the signature request."
+msgstr "사용자가 서명 요청을 거부했습니다."
+
+#: src/components/settings/AppVersionSection.tsx:28
+msgid "Version {APP_VERSION}"
+msgstr "버전 {APP_VERSION}"
+
+#: src/components/modals/AppUpdateModal.tsx:83
+msgid "Version {updatedVersion}"
+msgstr "버전 {updatedVersion}"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:92
+#: src/components/chats/GuestBottomTabs.tsx:48
+msgid "Wallet"
+msgstr "지갑"
+
+#: src/components/wallet/ConnectedWallet.tsx:47
+#: src/components/wallet/ConnectedWallet.tsx:88
+msgid "Wallet Address Not Found"
+msgstr "지갑 주소를 찾을 수 없음"
+
+#: src/components/wallet/ConnectedWallet.tsx:78
+msgid "Wallet disconnected successfully"
+msgstr "지갑 연결이 성공적으로 해제되었습니다"
+
+#: src/components/modals/ChatFeedbackModal.tsx:76
+msgid "We appreciate your feedback. Please share your comments or suggestions that you have to help us improve..."
+msgstr "피드백 감사합니다. 개선을 위한 의견이나 제안을 공유해 주세요..."
+
+#: src/screens/onboarding/Onboarding.tsx:52
+msgid "We use trusted feedback to improve system safety, functionality, and reliability."
+msgstr "신뢰할 수 있는 피드백을 통해 시스템의 안전성, 기능성, 신뢰성을 개선합니다."
+
+#: src/screens/onboarding/Onboarding.tsx:91
+#: src/components/chats/ChatEmptyState.tsx:29
+msgid "Welcome to TMAI Agent"
+msgstr "TMAI 에이전트에 오신 것을 환영합니다"
+
+#: src/components/modals/AppUpdateModal.tsx:80
+msgid "What's new? 🚀"
+msgstr "새로운 소식 🚀"
+
+#: src/components/wallet/ConnectedWallet.tsx:131
+msgid "Withdraw Funds"
+msgstr "자금 인출"
+
+#: src/components/chats/LimitReachedCopy.tsx:12
+msgid "You've used up your free chats. Sign in to continue the conversation"
+msgstr "무료 채팅을 모두 사용했습니다. 대화를 계속하려면 로그인하세요"
+
+#: src/hooks/chats/useGuestChatBot.ts:157
+msgid "You've used up your free chats. Upgrade to a paid plan to continue."
+msgstr "무료 채팅을 모두 사용했습니다. 계속하려면 유료 플랜으로 업그레이드하세요."
+
+#: src/components/modals/DeleteAccountModal.tsx:58
+msgid "Your account has been deleted."
+msgstr "계정이 삭제되었습니다."
+
+#: src/components/chats/ChatEmptyState.tsx:32
+msgid "Your AI-Powered Crypto Companion"
+msgstr "AI 기반 암호화폐 동반자"
+
+#: src/components/intro/IntroCarousel.tsx:36
+msgid "Your Personal Crypto Assistant"
+msgstr "당신의 개인 암호화폐 어시스턴트"
+
+#: src/screens/onboarding/Onboarding.tsx:43
+msgid "Your Security Matters"
+msgstr "당신의 보안이 중요합니다"
+
+#: src/components/wallet/WalletEmptyState.tsx:51
+msgid "Your TMAI Wallet"
+msgstr "TMAI 지갑"

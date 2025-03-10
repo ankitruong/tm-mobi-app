@@ -1,0 +1,11 @@
+graph TD
+    A[User] --> B[Login Screen]
+    B --> C{Auth Type}
+    C -->|Email/Password| D[Local Auth]
+    C -->|Social| E[OAuth Flow]
+    C -->|NFT| F[NFT Auth]
+    D --> G[Token Generation]
+    E --> G
+    F --> G
+    G --> H[Store Token]
+    H --> I[Authenticated State] 

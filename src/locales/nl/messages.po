@@ -1,0 +1,1153 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-02-23 14:23+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: nl\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/screens/getStarted/GetStarted.tsx:139
+#: src/components/modals/LoginPromptModal.tsx:173
+msgid "<0>By continuing, you agree to our</0><1> Terms </1><2>and</2><3> Privacy Policy</3>"
+msgstr "<0>Door verder te gaan, gaat u akkoord met onze</0><1> Voorwaarden </1><2>en</2><3> Privacybeleid</3>"
+
+#: src/components/settings/ResourcesSection.tsx:35
+msgid "About TMAI"
+msgstr "Over TMAI"
+
+#: src/components/settings/AccountSection.tsx:17
+msgid "Account"
+msgstr "Account"
+
+#: src/components/modals/DeleteAccountModal.tsx:58
+msgid "Account Deleted!"
+msgstr "Account verwijderd!"
+
+#: src/components/modals/SavedPromptsModal.tsx:107
+msgid "Add your preset question here"
+msgstr "Voeg hier uw vooraf ingestelde vraag toe"
+
+#: src/hooks/chats/usePrompts.ts:75
+msgid "Add your preset question here."
+msgstr "Voeg hier uw vooraf ingestelde vraag toe."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:161
+msgid "Already have an account?"
+msgstr "Heeft u al een account?"
+
+#: src/screens/thankYou/ThankYou.tsx:44
+msgid "Already verified?"
+msgstr "Al geverifieerd?"
+
+#: src/hooks/chats/useGuestChatBot.ts:427
+#: src/hooks/chats/useChatBot.ts:606
+msgid "An error occurred"
+msgstr "Er is een fout opgetreden"
+
+#: src/components/modals/DeleteAccountModal.tsx:72
+msgid "An error occurred while deleting your account."
+msgstr "Er is een fout opgetreden bij het verwijderen van uw account."
+
+#: src/screens/updateProfile/UpdateProfile.tsx:96
+msgid "An error occurred while updating your profile."
+msgstr "Er is een fout opgetreden bij het bijwerken van uw profiel."
+
+#: src/components/chats/ChatEmptyState.tsx:51
+msgid "Analyze coins"
+msgstr "Analyseer munten"
+
+#: src/navigation/rootStack/RootStack.tsx:200
+#: src/components/settings/PreferencesSection.tsx:72
+msgid "Appearance"
+msgstr "Weergave"
+
+#: src/components/drawers/MainDrawerContent.tsx:274
+msgid "Are you sure you want to delete this chat session? This action cannot be undone."
+msgstr "Weet u zeker dat u deze chatsessie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+
+#: src/components/chats/ChatInput.tsx:174
+msgid "Ask me anything..."
+msgstr "Vraag me alles..."
+
+#: src/components/intro/IntroCarousel.tsx:26
+msgid "Beat the Crypto Market with AI Insights"
+msgstr "Versla de cryptomarkt met AI-inzichten"
+
+#: src/components/intro/IntroCarousel.tsx:27
+msgid "Build crypto wealth with AI-driven insights."
+msgstr "Bouw crypto-vermogen op met AI-gestuurde inzichten."
+
+#: src/components/wallet/ConnectedWallet.tsx:160
+#: src/components/modals/RenameChatModal.tsx:71
+#: src/components/modals/DeleteAccountModal.tsx:117
+#: src/components/drawers/MainDrawerContent.tsx:270
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/hooks/chats/usePrompts.ts:78
+msgid "Cannot add more than 5 preset question."
+msgstr "Kan niet meer dan 5 vooraf ingestelde vragen toevoegen."
+
+#: src/hooks/chats/usePrompts.ts:93
+msgid "Cannot add preset question at the moment."
+msgstr "Kan op dit moment geen vooraf ingestelde vraag toevoegen."
+
+#: src/components/profile/ProfileAccountSection.tsx:45
+msgid "Change password"
+msgstr "Wachtwoord wijzigen"
+
+#: src/navigation/rootStack/RootStack.tsx:186
+msgid "Change Password"
+msgstr "Wachtwoord wijzigen"
+
+#: src/components/modals/DeleteAccountModal.tsx:126
+msgid "Change Plan"
+msgstr "Abonnement wijzigen"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:75
+#: src/components/chats/GuestBottomTabs.tsx:38
+msgid "Chat"
+msgstr "Chat"
+
+#: src/hooks/chats/useGuestChatBot.ts:156
+#: src/components/chats/LimitReachedCopy.tsx:9
+msgid "Chat Limit Reached"
+msgstr "Chatlimiet bereikt"
+
+#: src/components/modals/RenameChatModal.tsx:39
+msgid "Chat session renamed successfully"
+msgstr "Chatsessie succesvol hernoemd"
+
+#: src/components/modals/RenameChatModal.tsx:62
+msgid "Chat title goes here"
+msgstr "Chattitel hier invoeren"
+
+#: src/components/chats/ChatEmptyState.tsx:79
+msgid "Check your balance"
+msgstr "Controleer uw saldo"
+
+#: src/components/menus/ProfileImageMenuPopup.tsx:86
+msgid "Choose From Library"
+msgstr "Kies uit bibliotheek"
+
+#: src/components/headers/BottomDrawerHeader.tsx:49
+msgid "Close bottom drawer"
+msgstr "Onderste lade sluiten"
+
+#: src/components/headers/ChatModalHeader.tsx:59
+msgid "Close chat"
+msgstr "Chat sluiten"
+
+#: src/components/headers/ChatModalHeader.tsx:45
+#: src/components/drawers/MainDrawerContent.tsx:185
+msgid "Close edit mode"
+msgstr "Bewerkingsmodus sluiten"
+
+#: src/components/drawers/MainDrawerContent.tsx:199
+msgid "Close main drawer"
+msgstr "Hoofdlade sluiten"
+
+#: src/screens/appearance/Appearance.tsx:39
+msgid "Color Scheme"
+msgstr "Kleurenschema"
+
+#: src/screens/appearance/Appearance.tsx:31
+msgid "color scheme changed"
+msgstr "kleurenschema gewijzigd"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:177
+msgid "Complete your TMAI Account"
+msgstr "Voltooi uw TMAI-account"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:142
+#: src/screens/changePassword/ChangePassword.tsx:59
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:147
+msgid "Confirm your password"
+msgstr "Bevestig uw wachtwoord"
+
+#: src/components/wallet/WalletEmptyState.tsx:63
+msgid "Connect Wallet"
+msgstr "Wallet verbinden"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:155
+#: src/screens/onboarding/Onboarding.tsx:108
+#: src/screens/completeProfile/CompleteProfile.tsx:209
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: src/screens/intro/Intro.tsx:101
+msgid "Continue as a Guest"
+msgstr "Doorgaan als gast"
+
+#: src/screens/getStarted/GetStarted.tsx:86
+#: src/components/modals/LoginPromptModal.tsx:113
+msgid "Continue with Apple"
+msgstr "Doorgaan met Apple"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:112
+#: src/screens/signIn/SignIn.tsx:149
+msgid "Continue with email"
+msgstr "Doorgaan met e-mail"
+
+#: src/screens/getStarted/GetStarted.tsx:96
+#: src/components/modals/LoginPromptModal.tsx:126
+msgid "Continue with Google"
+msgstr "Doorgaan met Google"
+
+#: src/screens/getStarted/GetStarted.tsx:109
+#: src/components/modals/LoginPromptModal.tsx:139
+msgid "Continue with NFT"
+msgstr "Doorgaan met NFT"
+
+#: src/screens/onboarding/Onboarding.tsx:51
+msgid "Continuous Improvement"
+msgstr "Continue verbetering"
+
+#: src/components/chats/BotMessage.tsx:94
+msgid "Copy response"
+msgstr "Antwoord kopiëren"
+
+#: src/components/wallet/WalletCard.tsx:56
+msgid "Copy wallet address"
+msgstr "Wallet-adres kopiëren"
+
+#: src/screens/intro/Intro.tsx:108
+msgid "Create an Account"
+msgstr "Account aanmaken"
+
+#: src/components/profile/ProfileAccountSection.tsx:37
+msgid "Current plan"
+msgstr "Huidig abonnement"
+
+#: src/screens/appearance/Appearance.tsx:70
+msgid "Dark"
+msgstr "Donker"
+
+#: src/components/drawers/MainDrawerContent.tsx:269
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/components/modals/DeleteAccountModal.tsx:97
+#: src/components/modals/DeleteAccountModal.tsx:108
+msgid "Delete Account"
+msgstr "Account verwijderen"
+
+#: src/components/modals/DeleteAccountModal.tsx:52
+#: src/components/modals/DeleteAccountModal.tsx:71
+msgid "Delete Account Failed!"
+msgstr "Account verwijderen mislukt!"
+
+#: src/components/drawers/MainDrawerContent.tsx:140
+msgid "Delete chat session"
+msgstr "Chatsessie verwijderen"
+
+#: src/components/drawers/MainDrawerContent.tsx:268
+msgid "Delete Chat Session"
+msgstr "Chatsessie verwijderen"
+
+#: src/components/profile/ProfileAccountSection.tsx:54
+msgid "Delete my account"
+msgstr "Mijn account verwijderen"
+
+#: src/hooks/chats/usePrompts.ts:126
+msgid "Delete preset question failed."
+msgstr "Vooraf ingestelde vraag verwijderen mislukt."
+
+#: src/components/wallet/ConnectedWallet.tsx:159
+msgid "Disconnect"
+msgstr "Ontkoppelen"
+
+#: src/components/wallet/WalletCard.tsx:65
+msgid "Disconnect wallet"
+msgstr "Wallet ontkoppelen"
+
+#: src/components/wallet/ConnectedWallet.tsx:158
+msgid "Disconnect Wallet"
+msgstr "Wallet ontkoppelen"
+
+#: src/components/buttons/FeedbackIconButton.tsx:31
+msgid "Dislike"
+msgstr "Niet leuk"
+
+#: src/components/chats/MessageFeedback.tsx:43
+msgid "Dislike response"
+msgstr "Reactie niet leuk vinden"
+
+#: src/components/chats/MessageFeedback.tsx:62
+msgid "Disliked response"
+msgstr "Reactie niet leuk gevonden"
+
+#: src/components/modals/ChatFeedbackModal.tsx:84
+msgid "Dismiss"
+msgstr "Sluiten"
+
+#: src/screens/signIn/SignIn.tsx:203
+msgid "Don't have an account?"
+msgstr "Heeft u nog geen account?"
+
+#: src/components/modals/AppUpdateModal.tsx:113
+msgid "Download update"
+msgstr "Update downloaden"
+
+#: src/components/headers/SettingsHeader.tsx:43
+msgid "Edit profile"
+msgstr "Profiel bewerken"
+
+#: src/components/drawers/MainDrawerContent.tsx:124
+msgid "Edit session title"
+msgstr "Sessietitel bewerken"
+
+#: src/components/profile/ProfileInfoSection.tsx:23
+msgid "Email"
+msgstr "E-mail"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:120
+#: src/screens/signIn/SignIn.tsx:160
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:91
+msgid "Email already exists. Please try again with a different email address."
+msgstr "E-mailadres bestaat al. Probeer het opnieuw met een ander e-mailadres."
+
+#: src/screens/signIn/SignIn.tsx:74
+msgid "Email not verified"
+msgstr "E-mail niet geverifieerd"
+
+#: src/screens/signIn/SignIn.tsx:85
+msgid "Email sent successfully."
+msgstr "E-mail succesvol verzonden."
+
+#: src/components/settings/PreferencesSection.tsx:33
+msgid "English"
+msgstr "Engels"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:136
+msgid "Enter a password"
+msgstr "Voer een wachtwoord in"
+
+#: src/screens/changePassword/ChangePassword.tsx:86
+msgid "Enter the OTP sent to your email/phone"
+msgstr "Voer de OTP in die naar uw e-mail/telefoon is verzonden"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:125
+#: src/screens/signIn/SignIn.tsx:165
+msgid "Enter your email address"
+msgstr "Voer uw e-mailadres in"
+
+#: src/screens/signIn/SignIn.tsx:152
+msgid "Enter your email address to continue with your account."
+msgstr "Voer uw e-mailadres in om door te gaan met uw account."
+
+#: src/screens/completeProfile/CompleteProfile.tsx:190
+msgid "Enter your first name"
+msgstr "Voer uw voornaam in"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:201
+msgid "Enter your last name"
+msgstr "Voer uw achternaam in"
+
+#: src/components/chats/ChatInput.tsx:185
+msgid "Enter your message here"
+msgstr "Voer hier uw bericht in"
+
+#: src/screens/signIn/SignIn.tsx:185
+msgid "Enter your password"
+msgstr "Voer uw wachtwoord in"
+
+#: src/hooks/user/useChangePassword.ts:50
+#: src/hooks/auth/useAuthState.ts:35
+#: src/components/profile/ProfileImageSection.tsx:51
+msgid "Error"
+msgstr "Fout"
+
+#: src/screens/intro/Intro.tsx:59
+msgid "Error signing in as a guest"
+msgstr "Fout bij inloggen als gast"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:81
+#: src/screens/completeProfile/CompleteProfile.tsx:115
+msgid "Error signing up with email"
+msgstr "Fout bij aanmelden met e-mail"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:59
+msgid "Error verifying email"
+msgstr "Fout bij het verifiëren van e-mail"
+
+#: src/components/menus/ChatMenuPopup.tsx:87
+msgid "Example Prompts"
+msgstr "Voorbeeldvragen"
+
+#: src/components/modals/ExamplePromptsModal.tsx:125
+msgid "Example Questions"
+msgstr "Voorbeeldvragen"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:90
+msgid "Failed login with Privy."
+msgstr "Inloggen met Privy mislukt."
+
+#: src/hooks/chats/useMainDrawerContent.ts:131
+msgid "Failed to delete chat session"
+msgstr "Chatsessie verwijderen mislukt"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:96
+msgid "Failed to disconnect from external wallet."
+msgstr "Ontkoppelen van externe wallet mislukt."
+
+#: src/hooks/auth/useNftLogin.ts:178
+msgid "Failed to disconnect from the wallet."
+msgstr "Ontkoppelen van de wallet mislukt."
+
+#: src/components/wallet/ConnectedWallet.tsx:57
+msgid "Failed to fund wallet."
+msgstr "Financieren van wallet mislukt."
+
+#: src/hooks/auth/usePrivyLogin.ts:34
+msgid "Failed to login. Please try again."
+msgstr "Inloggen mislukt. Probeer het opnieuw."
+
+#: src/components/wallet/ConnectedWallet.tsx:80
+msgid "Failed to logout."
+msgstr "Uitloggen mislukt."
+
+#: src/components/modals/RenameChatModal.tsx:41
+msgid "Failed to rename chat session"
+msgstr "Hernoemen van chatsessie mislukt"
+
+#: src/components/modals/ChatFeedbackModal.tsx:43
+msgid "Failed to submit feedback"
+msgstr "Feedback versturen mislukt"
+
+#: src/components/profile/ProfileImageSection.tsx:98
+#: src/components/profile/ProfileImageSection.tsx:104
+msgid "Failed to update profile image"
+msgstr "Bijwerken van profielafbeelding mislukt"
+
+#: src/components/modals/ChatFeedbackModal.tsx:41
+msgid "Feedback submitted"
+msgstr "Feedback verzonden"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:123
+#: src/screens/completeProfile/CompleteProfile.tsx:185
+#: src/components/profile/ProfileInfoSection.tsx:14
+msgid "First Name"
+msgstr "Voornaam"
+
+#: src/components/wallet/ConnectedWallet.tsx:115
+msgid "Fund Wallet"
+msgstr "Wallet financieren"
+
+#: src/components/wallet/ConnectedWallet.tsx:63
+msgid "Funding Wallet Error"
+msgstr "Fout bij het financieren van wallet"
+
+#: src/components/headers/Header.tsx:51
+msgid "Go back"
+msgstr "Ga terug"
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:76
+#: src/hooks/auth/useNftLogin.ts:98
+msgid "Hi there! Sign this message to prove you have access to this wallet and we'll log you in , this wont't cost you any Ethers"
+msgstr "Hallo! Onderteken dit bericht om te bewijzen dat u toegang heeft tot deze wallet en we zullen u inloggen, dit kost u geen Ethers"
+
+#: src/components/settings/DangerZoneSection.tsx:41
+msgid "I understand"
+msgstr "Ik begrijp het"
+
+#: src/components/settings/PreferencesSection.tsx:56
+msgid "Language"
+msgstr "Taal"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:137
+#: src/screens/completeProfile/CompleteProfile.tsx:196
+#: src/components/profile/ProfileInfoSection.tsx:19
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: src/screens/appearance/Appearance.tsx:55
+msgid "Light"
+msgstr "Licht"
+
+#: src/components/buttons/FeedbackIconButton.tsx:31
+msgid "Like"
+msgstr "Leuk"
+
+#: src/components/chats/MessageFeedback.tsx:38
+msgid "Like response"
+msgstr "Reactie leuk vinden"
+
+#: src/components/chats/MessageFeedback.tsx:55
+msgid "Liked response"
+msgstr "Reactie leuk gevonden"
+
+#: src/components/chats/ChatInput.tsx:155
+msgid "Listening for speech input"
+msgstr "Luisteren naar spraakinvoer"
+
+#: src/hooks/chats/useSpeechToText.ts:209
+msgid "Listening..."
+msgstr "Luisteren..."
+
+#: src/components/loaders/AnimatedLoadingIcon.tsx:50
+msgid "Loading..."
+msgstr "Laden..."
+
+#: src/components/modals/LoginPromptModal.tsx:166
+msgid "Log in"
+msgstr "Inloggen"
+
+#: src/screens/intro/Intro.tsx:116
+msgid "Log In"
+msgstr "Inloggen"
+
+#: src/screens/signIn/SignIn.tsx:91
+#: src/screens/signIn/SignIn.tsx:113
+msgid "Login Failed!"
+msgstr "Inloggen mislukt!"
+
+#: src/components/modals/PrivyConnectWalletModal.tsx:55
+msgid "Login with email"
+msgstr "Inloggen met e-mail"
+
+#: src/screens/wallet/Wallet.tsx:35
+msgid "Login with email failed!"
+msgstr "Inloggen met e-mail mislukt!"
+
+#: src/components/modals/PrivyConnectWalletModal.tsx:42
+msgid "Login with Wallet"
+msgstr "Inloggen met wallet"
+
+#: src/components/wallet/ConnectedWallet.tsx:82
+msgid "Logout Error"
+msgstr "Uitlogfout"
+
+#: src/components/chats/ChatInput.tsx:183
+msgid "Message input"
+msgstr "Berichtinvoer"
+
+#: src/components/chats/ChatInput.tsx:124
+msgid "Message sent"
+msgstr "Bericht verzonden"
+
+#: src/hooks/chats/useGuestChatBot.ts:304
+#: src/hooks/chats/useChatBot.ts:417
+msgid "Message shared"
+msgstr "Bericht gedeeld"
+
+#: src/components/buttons/MicrophoneButton.tsx:23
+msgid "Microphone"
+msgstr "Microfoon"
+
+#: src/components/settings/AccountSection.tsx:20
+msgid "My profile"
+msgstr "Mijn profiel"
+
+#: src/navigation/rootStack/RootStack.tsx:154
+msgid "My Profile"
+msgstr "Mijn profiel"
+
+#: src/components/settings/DangerZoneSection.tsx:42
+msgid "Never mind"
+msgstr "Annuleren"
+
+#: src/components/menus/ChatMenuPopup.tsx:57
+msgid "New Chat"
+msgstr "Nieuwe chat"
+
+#: src/screens/changePassword/ChangePassword.tsx:45
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+#: src/hooks/auth/useNftLogin.ts:108
+#: src/hooks/auth/useNftLogin.ts:113
+msgid "No Astrobot NFT. Please purchase a Astrobot NFT to get access."
+msgstr "Geen Astrobot NFT. Koop een Astrobot NFT om toegang te krijgen."
+
+#: src/components/drawers/MainDrawerContent.tsx:241
+msgid "No chat history"
+msgstr "Geen chatgeschiedenis"
+
+#: src/hooks/chats/useChatBot.ts:459
+#: src/hooks/chats/useChatBot.ts:495
+msgid "No chat session id found"
+msgstr "Geen chatsessie-ID gevonden"
+
+#: src/hooks/chats/useMainDrawerContent.ts:110
+msgid "No chat session to rename"
+msgstr "Geen chatsessie om te hernoemen"
+
+#: src/hooks/chats/useGuestChatBot.ts:368
+#: src/hooks/chats/useChatBot.ts:517
+msgid "No feedback data found"
+msgstr "Geen feedbackgegevens gevonden"
+
+#: src/components/wallet/TokenListEmpty.tsx:9
+msgid "No tokens found, select a different network or add a token manually."
+msgstr "Geen tokens gevonden, selecteer een ander netwerk of voeg handmatig een token toe."
+
+#: src/components/modals/RenameChatModal.tsx:77
+msgid "Ok"
+msgstr "OK"
+
+#: src/screens/signIn/SignIn.tsx:78
+msgid "OK"
+msgstr "OK"
+
+#: src/components/chats/MessageFeedback.tsx:71
+msgid "Open chat feedback"
+msgstr "Chatfeedback openen"
+
+#: src/components/menus/ChatMenuPopup.tsx:32
+msgid "Open chat menu"
+msgstr "Chatmenu openen"
+
+#: src/components/headers/ChatModalHeader.tsx:45
+#: src/components/drawers/MainDrawerContent.tsx:185
+msgid "Open edit mode"
+msgstr "Bewerkingsmodus openen"
+
+#: src/components/buttons/MainDrawerToggleButton.tsx:17
+msgid "Open main drawer"
+msgstr "Hoofdlade openen"
+
+#: src/components/headers/GuestChatHeader.tsx:35
+msgid "Open profile"
+msgstr "Profiel openen"
+
+#: src/screens/changePassword/ChangePassword.tsx:75
+msgid "OTP"
+msgstr "OTP"
+
+#: src/hooks/user/useChangePassword.ts:46
+msgid "OTP sent to your email/phone"
+msgstr "OTP verzonden naar uw e-mail/telefoon"
+
+#: src/screens/onboarding/Onboarding.tsx:35
+msgid "Our Commitment to Improvement"
+msgstr "Onze toewijding aan verbetering"
+
+#: src/screens/onboarding/Onboarding.tsx:36
+msgid "Our engineers may review conversations to improve system performance and user experience."
+msgstr "Onze engineers kunnen gesprekken bekijken om de systeemprestaties en gebruikerservaring te verbeteren."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:131
+#: src/screens/signIn/SignIn.tsx:178
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: src/hooks/user/useChangePassword.ts:78
+msgid "Password changed successfully"
+msgstr "Wachtwoord succesvol gewijzigd"
+
+#: src/components/chats/ChatInput.tsx:96
+msgid "Permission to access microphone was denied"
+msgstr ""
+
+#: src/screens/onboarding/Onboarding.tsx:44
+msgid "Please avoid sharing sensitive personal information in your conversations to keep your data safe."
+msgstr "Deel geen gevoelige persoonlijke informatie in uw gesprekken om uw gegevens veilig te houden."
+
+#: src/screens/thankYou/ThankYou.tsx:30
+msgid "Please check your email and verify your account."
+msgstr "Controleer uw e-mail en verifieer uw account."
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:60
+msgid "Please enter a valid email address."
+msgstr "Voer een geldig e-mailadres in."
+
+#: src/hooks/chats/useSpeechToText.ts:114
+msgid "Please grant microphone permission to use voice input"
+msgstr "Geef microfoontoestemming om spraakinvoer te gebruiken"
+
+#: src/components/modals/RenameChatModal.tsx:30
+msgid "Please provide a title"
+msgstr "Geef een titel op"
+
+#: src/hooks/chats/useGuestChatBot.ts:373
+#: src/hooks/chats/useChatBot.ts:522
+msgid "Please provide feedback"
+msgstr "Geef feedback"
+
+#: src/components/modals/ChatFeedbackModal.tsx:31
+msgid "Please provide some feedback"
+msgstr "Geef wat feedback"
+
+#: src/screens/signIn/SignIn.tsx:75
+msgid "Please verify your email address. If you haven't received the email, please press resend email button below"
+msgstr "Verifieer uw e-mailadres. Als u de e-mail niet heeft ontvangen, klik dan op de knop 'E-mail opnieuw verzenden' hieronder"
+
+#: src/hooks/chats/usePrompts.ts:155
+#: src/hooks/chats/usePrompts.ts:170
+#: src/hooks/chats/useMainDrawerContent.ts:50
+#: src/hooks/chats/useMainDrawerContent.ts:75
+msgid "Please wait for the agent to finish processing the previous request"
+msgstr "Wacht tot de agent klaar is met het verwerken van het vorige verzoek"
+
+#: src/components/chats/ChatInput.tsx:66
+#: src/components/chats/ChatInput.tsx:112
+msgid "Please wait for the response to finish."
+msgstr "Wacht tot het antwoord is voltooid."
+
+#: src/hooks/chats/usePrompts.ts:176
+#: src/hooks/chats/useGuestChatBot.ts:166
+#: src/hooks/chats/useGuestChatBot.ts:244
+#: src/hooks/chats/useChatBot.ts:197
+#: src/hooks/chats/useChatBot.ts:308
+msgid "Please wait while previous request is being processed"
+msgstr "Wacht terwijl het vorige verzoek wordt verwerkt"
+
+#: src/hooks/chats/usePrompts.ts:154
+#: src/hooks/chats/usePrompts.ts:169
+#: src/hooks/chats/useMainDrawerContent.ts:49
+#: src/hooks/chats/useMainDrawerContent.ts:74
+#: src/hooks/chats/useGuestChatBot.ts:165
+#: src/hooks/chats/useGuestChatBot.ts:243
+#: src/hooks/chats/useChatBot.ts:196
+#: src/hooks/chats/useChatBot.ts:307
+msgid "Please Wait..."
+msgstr "Even geduld..."
+
+#: src/components/settings/PreferencesSection.tsx:45
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/components/modals/SavedPromptsModal.tsx:97
+msgid "Preset Questions"
+msgstr "Vooraf ingestelde vragen"
+
+#: src/navigation/rootStack/RootStack.tsx:233
+#: src/components/settings/ResourcesSection.tsx:50
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: src/hooks/wallets/useWalletPrivyConnect.ts:91
+msgid "Privy Login Error"
+msgstr "Privy inlogfout"
+
+#: src/components/profile/ProfileImageSection.tsx:51
+msgid "Profile image size must be less than 3MB"
+msgstr "Profielafbeelding moet kleiner zijn dan 3MB"
+
+#: src/components/profile/ProfileImageSection.tsx:90
+msgid "Profile image updated successfully"
+msgstr "Profielafbeelding succesvol bijgewerkt"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:83
+msgid "Profile updated successfully."
+msgstr "Profiel succesvol bijgewerkt."
+
+#: src/components/modals/ChatFeedbackModal.tsx:64
+msgid "Provide Additional Feedback"
+msgstr "Geef aanvullende feedback"
+
+#: src/components/settings/PreferencesSection.tsx:49
+msgid "Push Notifications"
+msgstr "Push-meldingen"
+
+#: src/screens/intro/Intro.tsx:41
+#: src/screens/completeProfile/CompleteProfile.tsx:124
+#: src/hooks/user/useChangePassword.ts:110
+msgid "Recaptcha error, please try again"
+msgstr "Recaptcha-fout, probeer het opnieuw"
+
+#: src/screens/intro/Intro.tsx:45
+#: src/screens/completeProfile/CompleteProfile.tsx:128
+#: src/hooks/user/useChangePassword.ts:114
+msgid "Recaptcha expired, please try again"
+msgstr "Recaptcha verlopen, probeer het opnieuw"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:53
+msgid "Recaptcha is required"
+msgstr "Recaptcha is vereist"
+
+#: src/components/buttons/RegenerateButton.tsx:25
+msgid "Regenerate latest response"
+msgstr "Laatste antwoord opnieuw genereren"
+
+#: src/components/chats/BotMessage.tsx:104
+msgid "Regenerate response"
+msgstr "Antwoord opnieuw genereren"
+
+#: src/components/modals/RenameChatModal.tsx:55
+msgid "Rename Chat"
+msgstr "Chat hernoemen"
+
+#: src/hooks/chats/usePrompts.ts:144
+msgid "Request Failed"
+msgstr "Verzoek mislukt"
+
+#: src/screens/signIn/SignIn.tsx:82
+msgid "Resend Email"
+msgstr "E-mail opnieuw verzenden"
+
+#: src/components/settings/ResourcesSection.tsx:25
+msgid "Resources"
+msgstr "Bronnen"
+
+#: src/hooks/chats/useGuestChatBot.ts:293
+#: src/hooks/chats/useChatBot.ts:406
+msgid "Response disliked"
+msgstr "Reactie niet leuk gevonden"
+
+#: src/hooks/chats/useGuestChatBot.ts:273
+#: src/hooks/chats/useChatBot.ts:366
+msgid "Response liked"
+msgstr "Reactie leuk gevonden"
+
+#: src/components/modals/SavedPromptsModal.tsx:116
+msgid "Save preset question"
+msgstr "Vooraf ingestelde vraag opslaan"
+
+#: src/components/menus/ChatMenuPopup.tsx:72
+msgid "Saved Prompts"
+msgstr "Opgeslagen vragen"
+
+#: src/components/wallet/ConnectedWalletTokensList.tsx:76
+msgid "Search Tokens..."
+msgstr "Zoek Tokens..."
+
+#: src/components/trades/TradeHistory.tsx:37
+msgid "Search Trade..."
+msgstr "Zoek Transactie..."
+
+#: src/components/drawers/MainDrawerContent.tsx:207
+msgid "Search..."
+msgstr "Zoeken..."
+
+#: src/components/chats/ChatEmptyState.tsx:66
+msgid "Sell crypto"
+msgstr "Crypto verkopen"
+
+#: src/screens/changePassword/ChangePassword.tsx:93
+msgid "Send"
+msgstr "Verzenden"
+
+#: src/components/chats/ChatInput.tsx:191
+msgid "Send message"
+msgstr "Bericht verzenden"
+
+#: src/hooks/auth/useAuthState.ts:35
+msgid "Session expired. Please login again."
+msgstr "Sessie verlopen. Log opnieuw in."
+
+#: src/navigation/rootStack/RootStack.tsx:140
+#: src/components/menus/ChatMenuPopup.tsx:96
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/hooks/chats/useGuestChatBot.ts:307
+#: src/hooks/chats/useChatBot.ts:420
+msgid "Share failed"
+msgstr "Delen mislukt"
+
+#: src/components/chats/BotMessage.tsx:116
+msgid "Share response"
+msgstr "Antwoord delen"
+
+#: src/screens/thankYou/ThankYou.tsx:48
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:165
+#: src/screens/signIn/SignIn.tsx:197
+#: src/screens/getStarted/GetStarted.tsx:135
+msgid "Sign in"
+msgstr "Inloggen"
+
+#: src/components/settings/DangerZoneSection.tsx:28
+#: src/components/settings/DangerZoneSection.tsx:40
+msgid "Sign out"
+msgstr "Uitloggen"
+
+#: src/screens/signIn/SignIn.tsx:207
+msgid "Sign up"
+msgstr "Aanmelden"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:81
+#: src/screens/completeProfile/CompleteProfile.tsx:90
+msgid "Sign Up Failed!"
+msgstr "Aanmelden mislukt!"
+
+#: src/screens/getStarted/GetStarted.tsx:122
+#: src/components/modals/LoginPromptModal.tsx:152
+msgid "Sign up with email"
+msgstr "Aanmelden met e-mail"
+
+#: src/screens/signUpWithEmail/SignUpWithEmail.tsx:115
+msgid "Sign up with your email."
+msgstr "Meld u aan met uw e-mail."
+
+#: src/components/settings/DangerZoneSection.tsx:45
+msgid "Signing out will also disconnect your wallet. You will need to connect your wallet again to use wallet features when you log in again."
+msgstr "Bij het uitloggen wordt ook uw wallet ontkoppeld. U moet uw wallet opnieuw verbinden om de wallet-functies te gebruiken wanneer u weer inlogt."
+
+#: src/hooks/auth/useSignout.ts:50
+#: src/hooks/auth/useSignout.ts:59
+msgid "Signout Failed!"
+msgstr "Uitloggen mislukt!"
+
+#: src/components/chats/ChatSimilarPrompts.tsx:31
+msgid "Similar"
+msgstr "Vergelijkbaar"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:160
+msgid "Something went wrong, please try again"
+msgstr "Er is iets misgegaan, probeer het opnieuw"
+
+#: src/components/chats/ChatSources.tsx:35
+msgid "Sources"
+msgstr "Bronnen"
+
+#: src/components/chats/ChatInput.tsx:174
+msgid "Speech recognized"
+msgstr "Spraak herkend"
+
+#: src/components/intro/IntroCarousel.tsx:31
+msgid "Spot Hidden Gems"
+msgstr "Ontdek verborgen parels"
+
+#: src/components/drawers/MainDrawerContent.tsx:245
+msgid "Start a new chat"
+msgstr "Start een nieuwe chat"
+
+#: src/components/modals/ChatFeedbackModal.tsx:90
+msgid "Submit"
+msgstr "Versturen"
+
+#: src/components/settings/ResourcesSection.tsx:28
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: src/components/profile/ProfileImageSection.tsx:63
+msgid "Supported image types:"
+msgstr "Ondersteunde afbeeldingstypen:"
+
+#: src/components/chats/ChatEmptyState.tsx:38
+msgid "Swap tokens"
+msgstr "Tokens wisselen"
+
+#: src/components/trades/TradeHistoryItem.tsx:38
+msgid "Swapped to"
+msgstr "Gewisseld naar"
+
+#: src/screens/appearance/Appearance.tsx:85
+msgid "System"
+msgstr "Systeem"
+
+#: src/components/menus/ProfileImageMenuPopup.tsx:78
+msgid "Take Photo"
+msgstr "Foto maken"
+
+#: src/components/buttons/MicrophoneButton.tsx:25
+msgid "Tap to start or stop recording"
+msgstr "Tik om opname te starten of te stoppen"
+
+#: src/screens/completeProfile/CompleteProfile.tsx:180
+msgid "Tell us about you."
+msgstr "Vertel ons over uzelf."
+
+#: src/components/settings/ResourcesSection.tsx:42
+msgid "Terms & Condition"
+msgstr "Algemene voorwaarden"
+
+#: src/navigation/rootStack/RootStack.tsx:219
+msgid "Terms Of Use"
+msgstr "Gebruiksvoorwaarden"
+
+#: src/screens/thankYou/ThankYou.tsx:27
+msgid "Thank you for signing up!"
+msgstr "Bedankt voor uw aanmelding!"
+
+#: src/hooks/auth/usePrivyLogin.ts:36
+msgid "The login flow was closed"
+msgstr "De inlogprocedure werd gesloten"
+
+#: src/components/wallet/ConnectedWallet.tsx:163
+msgid "This action will disconnect your wallet. You will need to connect your wallet again to use wallet features."
+msgstr "Deze actie zal uw wallet ontkoppelen. U moet uw wallet opnieuw verbinden om wallet-functies te gebruiken."
+
+#: src/screens/privacyPolicy/PrivacyPolicy.tsx:10
+msgid ""
+"This chatbot collects and stores information provided by users, including but not limited to user inputs but not personalized investor profile inputs, account information, and usage data. This information is used solely for the purpose of providing the chatbot service and improving the user experience. We may also use this information to send periodic updates, promotions, or other marketing materials. Users have the option to opt out of receiving these communications at any time by unsubscribing or contacting us directly.\n"
+"\n"
+"We take the privacy and security of user data seriously and implement measures to protect it from unauthorized access, disclosure, or use. We do not sell or share user data with third parties for marketing purposes.\n"
+"\n"
+"This chatbot may use cookies or other tracking technologies to enhance the user experience. Users can choose to disable cookies in their web browser, although this may affect the functionality of the chatbot.\n"
+"\n"
+"We may be required to disclose user data to comply with legal obligations or protect our rights, property, or safety.\n"
+"\n"
+"By using this chatbot, users consent to the collection, storage, and use of their data as outlined in this privacy policy."
+msgstr ""
+"Deze chatbot verzamelt en slaat informatie op die door gebruikers wordt verstrekt, waaronder maar niet beperkt tot gebruikersinvoer maar geen gepersonaliseerde beleggersprofielinvoer, accountinformatie en gebruiksgegevens. Deze informatie wordt uitsluitend gebruikt voor het leveren van de chatbotdienst en het verbeteren van de gebruikerservaring. We kunnen deze informatie ook gebruiken om periodieke updates, promoties of ander marketingmateriaal te versturen. Gebruikers hebben de mogelijkheid om zich op elk moment af te melden voor deze communicatie door zich uit te schrijven of direct contact met ons op te nemen.\n"
+"\n"
+"We nemen de privacy en beveiliging van gebruikersgegevens serieus en implementeren maatregelen om deze te beschermen tegen ongeautoriseerde toegang, openbaarmaking of gebruik. We verkopen of delen geen gebruikersgegevens met derden voor marketingdoeleinden.\n"
+"\n"
+"Deze chatbot kan cookies of andere trackingtechnologieën gebruiken om de gebruikerservaring te verbeteren. Gebruikers kunnen ervoor kiezen om cookies in hun webbrowser uit te schakelen, hoewel dit de functionaliteit van de chatbot kan beïnvloeden.\n"
+"\n"
+"We kunnen verplicht worden om gebruikersgegevens openbaar te maken om te voldoen aan wettelijke verplichtingen of om onze rechten, eigendommen of veiligheid te beschermen.\n"
+"\n"
+"Door deze chatbot te gebruiken, stemmen gebruikers in met het verzamelen, opslaan en gebruiken van hun gegevens zoals beschreven in dit privacybeleid."
+
+#: src/screens/onboarding/Onboarding.tsx:94
+msgid "This chatbot is provided for informational purposes only and is not intended to be used as financial or investment advice."
+msgstr "Deze chatbot wordt alleen voor informatieve doeleinden aangeboden en is niet bedoeld om te worden gebruikt als financieel of beleggingsadvies."
+
+#: src/screens/termsOfUse/TermsOfUse.tsx:10
+msgid ""
+"This chatbot is provided for informational purposes only and is not intended to be used as financial or investment advice. The information provided by this chatbot is not tailored to individual circumstances and may not be appropriate for all users. Investing in cryptocurrencies involves risks, including the potential loss of principal.\n"
+"\n"
+"The use of this chatbot does not create a financial advisor-client relationship. Before making any investment decisions, users should consult with a qualified financial advisor or conduct their own research.\n"
+"\n"
+"This chatbot is an automated system and may not always provide accurate or up-to-date information. The creators of this chatbot are not responsible for any actions taken by users based on the information provided by this chatbot. By using this chatbot, users acknowledge and accept these terms and conditions."
+msgstr ""
+"Deze chatbot wordt alleen voor informatieve doeleinden aangeboden en is niet bedoeld om te worden gebruikt als financieel of beleggingsadvies. De informatie die door deze chatbot wordt verstrekt, is niet afgestemd op individuele omstandigheden en is mogelijk niet geschikt voor alle gebruikers. Beleggen in cryptocurrencies brengt risico's met zich mee, waaronder het potentiële verlies van hoofdsom.\n"
+"\n"
+"Het gebruik van deze chatbot creëert geen financieel adviseur-cliëntrelatie. Voordat gebruikers beleggingsbeslissingen nemen, moeten ze een gekwalificeerd financieel adviseur raadplegen of hun eigen onderzoek doen.\n"
+"\n"
+"Deze chatbot is een geautomatiseerd systeem en biedt mogelijk niet altijd nauwkeurige of actuele informatie. De makers van deze chatbot zijn niet verantwoordelijk voor acties die door gebruikers worden ondernomen op basis van de informatie die door deze chatbot wordt verstrekt. Door deze chatbot te gebruiken, erkennen en accepteren gebruikers deze voorwaarden."
+
+#: src/navigation/rootStack/RootStack.tsx:122
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:74
+msgid "TMAI Agent"
+msgstr "TMAI Agent"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:91
+msgid "TMAI Wallet"
+msgstr "TMAI Wallet"
+
+#: src/components/inputs/SecureTextInput.tsx:26
+msgid "Toggle password visibility"
+msgstr "Wachtwoordzichtbaarheid aan/uit"
+
+#: src/components/wallet/WalletEmptyState.tsx:54
+msgid "Track your holdings and balances here after connecting your wallet"
+msgstr "Volg hier uw bezittingen en saldo na het verbinden van uw wallet"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:107
+msgid "Trade History"
+msgstr "Handelsgeschiedenis"
+
+#: src/components/intro/IntroCarousel.tsx:37
+msgid "Trade, swap, and track the market effortlessly. Access live charts, real-time market insights, with our AI Agent."
+msgstr "Handel, ruil en volg de markt moeiteloos. Krijg toegang tot live grafieken en realtime marktinzichten met onze AI Agent."
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:108
+#: src/components/chats/GuestBottomTabs.tsx:54
+msgid "Trades"
+msgstr "Transacties"
+
+#: src/components/intro/IntroCarousel.tsx:32
+msgid "Unearth standout tokens from over 7,000 options with powerful AI-driven insights."
+msgstr "Ontdek uitstekende tokens uit meer dan 7.000 opties met krachtige AI-gestuurde inzichten."
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:100
+#: src/hooks/auth/useNftLogin.ts:166
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+#: src/components/wallet/WalletDistribution.tsx:49
+#: src/components/wallet/WalletDistribution.tsx:55
+msgid "Unselect network"
+msgstr "Netwerk deselecteren"
+
+#: src/components/profile/ProfileImageSection.tsx:62
+msgid "Unsupported image type"
+msgstr "Niet-ondersteund afbeeldingstype"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:152
+#: src/screens/changePassword/ChangePassword.tsx:110
+msgid "Update"
+msgstr "Bijwerken"
+
+#: src/screens/updateProfile/UpdateProfile.tsx:95
+#: src/hooks/user/useChangePassword.ts:73
+#: src/hooks/user/useChangePassword.ts:88
+msgid "Update Failed!"
+msgstr "Bijwerken mislukt!"
+
+#: src/navigation/rootStack/RootStack.tsx:172
+msgid "Update Profile"
+msgstr "Profiel bijwerken"
+
+#: src/hooks/wallets/useWalletAppKitConnect.ts:96
+#: src/hooks/auth/useNftLogin.ts:155
+msgid "User rejected the signature request."
+msgstr "Gebruiker heeft het ondertekeningsverzoek geweigerd."
+
+#: src/components/settings/AppVersionSection.tsx:28
+msgid "Version {APP_VERSION}"
+msgstr "Versie {APP_VERSION}"
+
+#: src/components/modals/AppUpdateModal.tsx:83
+msgid "Version {updatedVersion}"
+msgstr "Versie {updatedVersion}"
+
+#: src/navigation/mainBottomTabs/MainBottomTabs.tsx:92
+#: src/components/chats/GuestBottomTabs.tsx:48
+msgid "Wallet"
+msgstr "Wallet"
+
+#: src/components/wallet/ConnectedWallet.tsx:47
+#: src/components/wallet/ConnectedWallet.tsx:88
+msgid "Wallet Address Not Found"
+msgstr "Wallet-adres niet gevonden"
+
+#: src/components/wallet/ConnectedWallet.tsx:78
+msgid "Wallet disconnected successfully"
+msgstr "Wallet succesvol ontkoppeld"
+
+#: src/components/modals/ChatFeedbackModal.tsx:76
+msgid "We appreciate your feedback. Please share your comments or suggestions that you have to help us improve..."
+msgstr "We waarderen uw feedback. Deel uw opmerkingen of suggesties om ons te helpen verbeteren..."
+
+#: src/screens/onboarding/Onboarding.tsx:52
+msgid "We use trusted feedback to improve system safety, functionality, and reliability."
+msgstr "We gebruiken betrouwbare feedback om de systeemveiligheid, functionaliteit en betrouwbaarheid te verbeteren."
+
+#: src/screens/onboarding/Onboarding.tsx:91
+#: src/components/chats/ChatEmptyState.tsx:29
+msgid "Welcome to TMAI Agent"
+msgstr "Welkom bij TMAI Agent"
+
+#: src/components/modals/AppUpdateModal.tsx:80
+msgid "What's new? 🚀"
+msgstr "Wat is er nieuw? 🚀"
+
+#: src/components/wallet/ConnectedWallet.tsx:131
+msgid "Withdraw Funds"
+msgstr "Geld opnemen"
+
+#: src/components/chats/LimitReachedCopy.tsx:12
+msgid "You've used up your free chats. Sign in to continue the conversation"
+msgstr "U heeft uw gratis chats opgebruikt. Log in om het gesprek voort te zetten"
+
+#: src/hooks/chats/useGuestChatBot.ts:157
+msgid "You've used up your free chats. Upgrade to a paid plan to continue."
+msgstr "U heeft uw gratis chats opgebruikt. Upgrade naar een betaald abonnement om door te gaan."
+
+#: src/components/modals/DeleteAccountModal.tsx:58
+msgid "Your account has been deleted."
+msgstr "Uw account is verwijderd."
+
+#: src/components/chats/ChatEmptyState.tsx:32
+msgid "Your AI-Powered Crypto Companion"
+msgstr "Uw AI-gestuurde crypto-assistent"
+
+#: src/components/intro/IntroCarousel.tsx:36
+msgid "Your Personal Crypto Assistant"
+msgstr "Uw persoonlijke crypto-assistent"
+
+#: src/screens/onboarding/Onboarding.tsx:43
+msgid "Your Security Matters"
+msgstr "Uw veiligheid is belangrijk"
+
+#: src/components/wallet/WalletEmptyState.tsx:51
+msgid "Your TMAI Wallet"
+msgstr "Uw TMAI Wallet"

@@ -1,0 +1,74 @@
+name: Code Review
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code review
+        uses: anc95/ChatGPT-CodeReview@main
+        id: code-review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODEL: o1-mini
+          PROMPT: |
+            Please review the code diff below with the following criteria:
+            1. Code Quality & Best Practices
+            2. Potential Bugs or Edge Cases
+            3. Efficiency and scalability of the code
+            4. Readability & Maintainability
+            5. Security Concerns
+            Provide a numeric score (0-2) for each category, and an explanation for each. Then provide an overall grade (this will be the sum of the numeric scores you provided for each category) along with recommendations for improvement. The overall grade should be in the format of "Overall Score: X.Y". Please maintain that format for the overall score
+
+      - name: Extract score from Github Comment
+        id: score
+        run: |
+          curl -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            ${{ github.event.pull_request.url }}/comments > comments.json
+
+          SCORE=$(jq -r 'sort_by(.created_at) | reverse | .[] | select(.body | contains("Overall Score")) | .body' comments.json | grep -o "Overall Score:[ ]*[0-9][.0-9/]*" | cut -d ':' -f2 | tr -d ' *' | cut -d '/' -f1 | head -n 1)
+          echo "score=$SCORE" >> $GITHUB_OUTPUT
+
+          if [[ -z "$SCORE" ]]; then
+            echo "Score not found in comments."
+            exit 1
+          fi
+
+      - name: Enforce Quality Threshold and post comment
+        id: enforce-quality
+        env: 
+          SCORE: ${{ steps.score.outputs.score }}
+        run: |
+          echo "Extracted Score: $SCORE"
+
+          if (( $(echo "$SCORE < 8.5" | bc -l) )); then
+              echo "Code quality score ($SCORE) is below the required threshold (8.5)."
+              COMMENT="❌ Code quality score ($SCORE) is below the required threshold (8.5). Please address the comments and improve the score to proceed."
+              curl -X POST \
+                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Content-Type: application/json" \
+                -d "{\"body\": \"$COMMENT\"}" \
+                "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/comments"
+              exit 1
+          else
+              echo "Code quality score ($SCORE) meets the required threshold (8.5)."
+              COMMENT="✅ Code quality score ($SCORE) meets the required threshold (8.5). Good job!"
+              curl -X POST \
+                -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Content-Type: application/json" \
+                -d "{\"body\": \"$COMMENT\"}" \
+                "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.number }}/comments"
+          fi

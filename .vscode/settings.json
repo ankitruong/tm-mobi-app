@@ -1,0 +1,37 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "eslint.format.enable": true,
+  "eslint.enable": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "prettier.configPath": ".prettierrc",
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "class:list",
+    "titleClassName",
+    "containerClassName",
+    "textClassName",
+    "inputClassName",
+    "contentContainerClassName",
+    "headerClassName"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "i18n-ally.localesPaths": ["src/locales"]
+}

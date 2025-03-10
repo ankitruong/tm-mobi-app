@@ -1,0 +1,9 @@
+graph TD
+    A[Error Occurs] --> B{Error Type}
+    B -->|API| C[API Error Handler]
+    B -->|UI| D[Error Boundary]
+    B -->|Network| E[Network Error]
+    C --> F[Sentry]
+    D --> F
+    E --> F
+    F --> G[User Feedback] 

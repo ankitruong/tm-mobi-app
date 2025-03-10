@@ -1,0 +1,8 @@
+graph TD
+    A[User Action] --> B[Zustand Store]
+    B --> C{State Type}
+    C -->|App State| D[useAppStore]
+    C -->|Chat State| E[usePersistedChatStore]
+    D --> F[UI Update]
+    E --> F
+    F --> G[Persist if needed] 

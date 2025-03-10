@@ -1,0 +1,9 @@
+graph TD
+    A[User] --> B[Chat Input]
+    B --> C[Message Processing]
+    C --> D{Message Type}
+    D -->|Stream| E[SSE Handler]
+    D -->|Regular| F[REST API]
+    E --> G[Update Chat UI]
+    F --> G
+    G --> H[Store Chat History] 

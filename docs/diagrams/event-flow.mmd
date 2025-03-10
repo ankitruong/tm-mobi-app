@@ -1,0 +1,9 @@
+graph TD
+    A[User Action] --> B[Event Bus]
+    B --> C{Event Type}
+    C -->|Analytics| D[PostHog]
+    C -->|Error| E[Sentry]
+    C -->|Chat| F[Chat Handler]
+    D --> G[Event Store]
+    E --> G
+    F --> G 

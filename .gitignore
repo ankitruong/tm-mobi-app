@@ -33,3 +33,20 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# CNG
+android/
+ios/
+
+# local env files
+.env*
+.env.development.dist
+.env.production.dist
+.env.local.dist
+!.env.example
+
+# production env
+expoEnv.ts
+
+# coverage
+coverage/
